@@ -8,7 +8,7 @@ services:
       context: .
       args: 
         - NODE_ENV=production
-    command: npm run start
+    command: npm index.js
     environment:
       - NODE_ENV=production
       - MONGO_USER=${MONGO_USER}
