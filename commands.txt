@@ -1,0 +1,11 @@
+# run dev locally
+docker-compose -f docker-compose.yml -f docker-compose.dev.yml up -d --build
+
+# run prod locally
+docker-compose -f docker-compose.yml -f docker-compose.prod.yml up -d --build
+
+# building production docker image
+cd api
+docker build . -t api:latest
+
+can you write a full production and development setup for docker and kubernetes of nodejs application
