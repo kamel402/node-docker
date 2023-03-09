@@ -216,5 +216,4 @@ migration/
 oci/
 oci/*
 
-*.js
 *.js.map
